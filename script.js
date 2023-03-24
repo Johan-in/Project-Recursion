@@ -13,6 +13,7 @@ function mergeSort(arr) {
     return merge(leftSorted, rightSorted);
 }
 
+
 function merge (left, right) {
     console.log (left, right);
     const result = [];
